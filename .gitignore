@@ -8,3 +8,5 @@ www/src/storage/logs/*
 www/.env
 
 www/package-lock.json
+
+init.sh
