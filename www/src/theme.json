@@ -1,0 +1,20 @@
+{
+    "label": "CMS Certification Theme",
+    "version": "1.0.0",
+    "preview_path": "./templates/home.html",
+    "enable_domain_stylesheets": false,
+    "is_available_for_new_content": true,
+    "author":{
+        "name":"Yuri Serafim",
+        "email":"yuri.serafim@okn.com.br"
+    },
+    "responsive_breakpoints": [
+        {
+            "name": "mobile",
+            "mediaQuery": "@media (max-width: 900px)",
+            "previewWidth": {
+                "value": 900
+            }
+        }
+    ]
+}

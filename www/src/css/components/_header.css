@@ -1,0 +1,48 @@
+{% set header_background_color = theme.header.background_color.color %}
+{% set header_title_color = theme.header.title_color.color %}
+{% set header_text_color = theme.header.text_color.color %}
+{% set header_menu_color = theme.header.menu_color.color %}
+
+header {
+    height: fit-content;
+    padding: 30px 15px;
+    background-color: {{ header_background_color }};
+}
+
+header > h1 {
+    margin-bottom: 20px;
+    color: {{ header_title_color }};
+}
+
+header > .header-content {
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    header > .header-content {
+        width: 80%;
+    }
+}
+
+header > .header-content > * {
+    margin: 10px 0;
+    color: {{ header_text_color }};
+}
+
+header > nav {
+    margin-top: 25px;
+}
+
+header > nav ul {
+    display: inline-flex;
+}
+
+header > nav ul > li:nth-of-type(even) {
+    margin: 0 20px;
+}
+
+header > nav ul > li > a {
+    text-decoration: none;
+    color: {{ header_menu_color }};
+}
+

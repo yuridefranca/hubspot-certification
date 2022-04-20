@@ -1,0 +1,24 @@
+.module-member {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.module-member > .team-member {
+    flex: 0 0 calc(100% / 3.2);
+}
+
+@media screen and (max-width: 900px) {
+    .module-member > .team-member {
+        flex: 0 0 calc(100% / 2.2);
+    }
+} 
+
+.module-member > .team-member img {
+    max-width: 100%;
+}
+
+.module-member > .team-member > * {
+    margin-top: 5px;
+}

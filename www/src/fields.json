@@ -1,0 +1,64 @@
+[
+    {
+        "label": "Header Styles",
+        "name": "header",
+        "type": "group",
+        "children": [
+            {
+                "label": "Background Color",
+                "name": "background_color",
+                "type": "color",
+                "default": {
+                    "color": "#c3c3c3"
+                }
+            },
+            {
+                "label": "Title Color",
+                "name": "title_color",
+                "type": "color",
+                "default": {
+                    "color": "#000000"
+                }
+            },
+            {
+                "label": "Text Color",
+                "name": "text_color",
+                "type": "color",
+                "default": {
+                    "color": "#000000"
+                }
+            },
+            {
+                "label": "Menu Color",
+                "name": "menu_color",
+                "type": "color",
+                "default": {
+                    "color": "#000000"
+                }
+            }
+        ]
+    },
+    {
+        "label": "Footer Styles",
+        "name": "footer",
+        "type": "group",
+        "children": [
+            {
+                "label": "Background Color",
+                "name": "background_color",
+                "type": "color",
+                "default": {
+                    "color": "#c3c3c3"
+                }
+            },
+            {
+                "label": "Menu Color",
+                "name": "menu_color",
+                "type": "color",
+                "default": {
+                    "color": "#000000"
+                }
+            }
+        ]
+    }
+]

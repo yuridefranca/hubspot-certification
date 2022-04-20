@@ -1,0 +1,18 @@
+<!-- module html  -->
+<div class="module-member">
+    {% for item in module.members %}
+        <div class="team-member">
+            {% if item.member_img.src %}
+                {% set sizeAttrs = 'style="max-width: 100%; width: 100%; height: auto;"' %}
+                {% set loadingAttr = item.member_img.loading != 'disabled' ? 'loading="{{ item.member_img.loading }}"' : '' %}
+                <img src="{{ item.member_img.src }}" alt="{{ item.member_img.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+            {% endif %}
+
+            <h4>{% inline_text field="member_name" value="{{ item.member_name }}" %}</h4>
+
+            <p>{% inline_text field="member_role" value="{{ item.member_role }}" %}</p>
+
+            <p>{% inline_text field="member_description" value="{{ item.member_description }}" %}</p>
+        </div>
+    {% endfor %}
+</div>

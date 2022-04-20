@@ -1,0 +1,12 @@
+defaultPortal: yuri_cms_account
+portals:
+  - name: yuri_cms_account
+    portalId: 21576224
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          COmMo72EMBIJAA0AAAAA4A0DGKD0pAogmrvVDCju6QwyFDDvhjpkWU66rpk5pkATM4ceFfnDOigAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgQhSpITrx1ezdIzRceH7vu83nOkMpYEoDbmExUgBaAA
+        expiresAt: '2022-04-20T15:48:04.850Z'
+    personalAccessKey: >-
+      CiQ5Zjc3ZTc0MS1lYjJlLTQwNzQtYTAwYS1hMGNiZGQzYjcxOWIQoPSkChiau9UMKhkABeaRgs2xv-QVq0pb1YOtpjOlfHupR5bYSgNuYTE

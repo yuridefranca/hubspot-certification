@@ -1,0 +1,6 @@
+<!-- module html  -->
+{% if module.image.src %}
+    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+	{% set loadingAttr = module.image.loading != 'disabled' ? 'loading="{{ module.image.loading }}"' : '' %}
+	<img src="{{ module.image.src }}" alt="{{ module.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }} class="resizable-image">
+{% endif %}

@@ -1,0 +1,10 @@
+www/node_modules
+
+www/src/storage/logs/*
+!www/src/storage/logs/.gitkeep
+
+.editorconfig
+
+www/.env
+
+www/package-lock.json

@@ -1,0 +1,22 @@
+[{
+	"default": {
+		"size_type": "auto",
+		"src": "https://21576224.fs1.hubspotusercontent-na1.net/hubfs/21576224/default-placeholder.png",
+		"alt": "default-placeholder",
+		"loading": "lazy",
+		"width": 500,
+		"height": 500,
+		"max_width": 500,
+		"max_height": 500
+	},
+	"display_width": null,
+	"id": "04643aaf-2003-e0a6-d6b6-a4b1481dc724",
+	"label": "Image",
+	"locked": false,
+	"name": "image",
+	"required": false,
+	"resizable": true,
+	"responsive": true,
+	"show_loading": false,
+	"type": "image"
+}]

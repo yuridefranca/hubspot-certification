@@ -1,0 +1,41 @@
+<!--
+    templateType: page
+    label: Home
+    isAvailableForNewContent: true
+-->
+
+{% extends './layouts/base.html' %}
+
+{% block main %}
+<section class="mission">
+    <h2>Our Mission</h2>
+    {% dnd_area "mission_dnd_area", class="mission-dnd-area" %}
+        {% dnd_section %}
+            {% dnd_column width=6 %}
+                {% dnd_row %}
+                    {% dnd_module "module_16503910527101" path="/cms-certification/modules/resizable-image", label="resizable-image" %}
+
+                    {% end_dnd_module %}
+                {% end_dnd_row %}
+            {% end_dnd_column %}
+            
+            {% dnd_column width=6, offset=6 %}
+                {% dnd_row %}
+                    {% dnd_module path="@hubspot/rich_text", offset=0 %}
+                        {% module_attribute "html" %}
+                            <h3>Lorem ipsum netus quisque sodales justo eros nam</h3><br>
+                            <p>&nbsp;&nbsp; Nec class massa eleifend porttitor interdum tellus curae arcu, donec dictumst varius morbi amet et torquent, laoreet quis neque ut semper sit eleifend. porta euismod quisque arcu lorem ipsum eros orci at ligula ullamcorper, primis duis sollicitudin amet felis mi tellus vitae aliquet laoreet gravida.</p>
+                        {% end_module_attribute %}
+                    {% end_dnd_module %}
+                {% end_dnd_row %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+	{% end_dnd_area %}
+</section>
+<section class="team">
+	<h2>Our Team</h2>
+	<div class="team-members-list">
+		{% module "module_16503775136501" path="/cms-certification/modules/team-members", label="team-members" %}
+	</div>
+</section>
+{% endblock main %}

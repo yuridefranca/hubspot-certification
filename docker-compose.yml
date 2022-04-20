@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: ${PROJECT_NAME}-app
+    image: okngroup/nginx-node-webserver:1.0.0
+    working_dir: /var/www/app
+    privileged: true
+    tty: true
+    stdin_open: true
+    environment:
+      - APP_URL=${APP_URL}
+      - APP_PORT=${APP_PORT}
+    ports:
+      - ${APP_PORT}:90
+    volumes:
+      - ./www/:/var/www/app

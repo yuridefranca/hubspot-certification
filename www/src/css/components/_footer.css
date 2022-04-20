@@ -1,0 +1,25 @@
+{% set footer_background_color = theme.footer.background_color.color %}
+{% set footer_menu_color = theme.footer.menu_color.color %}
+
+footer {
+    height: fit-content;
+    padding: 10px 15px;
+    background-color: {{ footer_background_color }};
+}
+
+footer > nav {
+    margin-top: 10px;
+}
+
+footer > nav ul {
+    display: inline-flex;
+}
+
+footer > nav ul > li:nth-of-type(even) {
+    margin: 0 20px;
+}
+
+footer > nav ul > li > a {
+    text-decoration: none;
+    color: {{ header_menu_color }};
+}

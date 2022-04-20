@@ -1,0 +1,88 @@
+[{
+	"type": "group",
+	"id": "b42471b4-46c0-c714-4a90-7d3527209843",
+	"label": "Members",
+	"children": [{
+			"default": {
+				"size_type": "auto",
+				"src": "https://21576224.fs1.hubspotusercontent-na1.net/hubfs/21576224/default-profile-placeholder.png",
+				"alt": "default-profile-placeholder",
+				"loading": "lazy",
+				"width": 1524,
+				"height": 976,
+				"max_width": 1524,
+				"max_height": 976
+			},
+			"display_width": null,
+			"id": "04643aaf-2003-e0a6-d6b6-a4b1481dc724",
+			"label": "Member Image",
+			"locked": false,
+			"name": "member_img",
+			"required": false,
+			"resizable": true,
+			"responsive": true,
+			"show_loading": false,
+			"type": "image"
+		},
+		{
+			"allow_new_line": false,
+			"default": "Name",
+			"display_width": null,
+			"id": "c5c129f4-20c8-12a4-9789-3c58b0a22ec4",
+			"label": "Member Name",
+			"locked": false,
+			"name": "member_name",
+			"required": false,
+			"show_emoji_picker": false,
+			"type": "text",
+			"validation_regex": ""
+		},
+		{
+			"allow_new_line": false,
+			"default": "Role",
+			"display_width": null,
+			"id": "f19837b9-94a6-ce1c-1110-4394fa4e5269",
+			"label": "Member Role",
+			"locked": false,
+			"name": "member_role",
+			"required": false,
+			"show_emoji_picker": false,
+			"type": "text",
+			"validation_regex": ""
+		},
+		{
+			"allow_new_line": false,
+			"default": "Lorem ipsum aptent bibendum blandit consequat, eu imperdiet interdum sed consequat, vivamus sem vel pellentesque. ",
+			"display_width": null,
+			"id": "a7d076d4-38da-caab-9297-b4e4b5e88633",
+			"label": "Member Description",
+			"locked": false,
+			"name": "member_description",
+			"required": false,
+			"show_emoji_picker": false,
+			"type": "text",
+			"validation_regex": ""
+		}
+	],
+	"name": "members",
+	"default": [
+		{
+			"member_img": {
+				"size_type": "auto",
+				"src": "https://21576224.fs1.hubspotusercontent-na1.net/hubfs/21576224/default-profile-placeholder.png",
+				"alt": "default-profile-placeholder",
+				"loading": "lazy",
+				"width": 1524,
+				"height": 976,
+				"max_width": 1524,
+				"max_height": 976
+			},
+			"member_name": "Name 1",
+			"member_role": "Role 1",
+			"member_description": "Lorem ipsum aptent bibendum blandit consequat, eu imperdiet interdum sed consequat, vivamus sem vel pellentesque. "
+		}
+	],
+	"occurrence": {
+		"min": 1
+	}
+}]

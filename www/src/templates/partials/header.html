@@ -1,0 +1,28 @@
+<!--
+    templateType: global_partial
+    label: Header
+    isAvailableForNewContent: false
+-->
+<!-- Begin partial -->
+
+<header>
+    <h1>{% module "text" path="@hubspot/text" value="Title Example" %}</h1>
+    <div class="header-content">
+        {% module "text" path="@hubspot/text" value="Lorem ipsum eleifend risus vulputate condimentum risus adipiscing tempus nullam faucibus, litora et class curabitur netus varius porttitor mi pellentesque auctor." %}
+        {% module "text" path="@hubspot/text" value="Author Name" %}
+    </div>
+    <nav>
+        {% menu "main" 
+            id=71110746766, 
+            site_map_name="Default", 
+            overrideable=False, 
+            root_type="site_root", 
+            flyouts="true", 
+            max_levels="2", 
+            flow="horizontal", 
+            label="Main Menu" 
+        %}
+    </nav>
+</header>
+
+<!-- End partial -->
